@@ -53,6 +53,9 @@ jobs:
       - name: Terraform Apply
         run: terraform apply tfplan
         
+      - name: Terraform Destroy
+        run: terraform destroy
+        
   
 
 
